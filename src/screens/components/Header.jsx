@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: colors.primary,
   },
-  headerTitle: {
-    color: '#E4DDDD'
+  headerTitle : {
+    color: colors.secondary
   }
 })

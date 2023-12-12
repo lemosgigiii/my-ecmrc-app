@@ -1,11 +1,13 @@
-import { StyleSheet, Text } from "react-native"
+import { StyleSheet, Text, TouchableOpacity } from "react-native"
 import Card from './Card'
 
 const CategoryItem = ({category}) => {
   return (
+    <TouchableOpacity onPress={null}>
     <Card style={styles.cardContainer}>
       <Text style={styles.text}>{category}</Text>
     </Card>
+    </TouchableOpacity>
   )
 }
 

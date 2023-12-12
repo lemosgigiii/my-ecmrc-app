@@ -1,11 +1,8 @@
 [
-    "smartphones",
-    "laptops",
+    "jackets",
+    "shoes",
     "fragrances",
     "skincare",
-    "groceries",
-    "home-decoration",
-    "furniture",
     "tops",
     "womens-dresses",
     "womens-shoes",
@@ -16,7 +13,6 @@
     "womens-bags",
     "womens-jewellery",
     "sunglasses",
-    "automotive",
-    "motorcycle",
-    "lighting"
+    "lighting",
+    "hoodies"
 ]
