@@ -1,14 +1,24 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, FlatList } from 'react-native'
+import products_data from './data/products_data.json'
+import ProductItem from '../components/ProductItem'
 
 const ProductsByCategoryScreen = () => {
+  
+  const renderProductItem = ({item}) => (
+      <ProductItem product={item} />
+  )
+
   return (
-    <View style={styles.container}>
-      <Text>lista de categorias</Text>
-    </View>
+      <FlatList
+        data={products_data}
+        renderItem= {renderProductItem}
+        keyExtractor={item=>item.id}
+    />
   )
 }
 
 export default ProductsByCategoryScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  
+})

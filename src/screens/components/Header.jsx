@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primary,
   },
   headerTitle : {
-    color: colors.secondary
+    color: colors.secondary,
+    fontFamily: 'Alegreya-Bold'
   }
 })
