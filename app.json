@@ -3,7 +3,10 @@
     "name": "my-ecommerce-app",
     "slug": "my-ecommerce-app",
     "version": "1.0.0",
+<<<<<<< HEAD
     "orientation": "portrait",
+=======
+>>>>>>> b8b1966 (navigation)
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
